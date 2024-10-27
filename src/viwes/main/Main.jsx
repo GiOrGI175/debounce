@@ -1,7 +1,12 @@
 import React from 'react';
+import SearchAPI from '../../components/SearchAPI';
 
 const Main = () => {
-  return <div></div>;
+  return (
+    <main className='w-full justify-center'>
+      <SearchAPI />
+    </main>
+  );
 };
 
 export default Main;
